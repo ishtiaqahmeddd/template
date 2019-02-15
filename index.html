@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Shutterstuck-Tamplete</title>
+		<!--link css, bootstrap and js-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="js/bootstrap.js">
+
+	<link rel="stylesheet" href="css/style.css">
+
+		<!--CDN Section-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+</head>
+<body>
+
+
+	<div class="container-fluid">
+
+		<!--Header Section-->
+		<section id="header">
+			<div class="header-container navbar-nav navbar">
+				<div class="site-name container">
+					<img src="img/logo.png" alt="Site-name" class="main-logo">
+					<ul class="section-ul">
+						<li class="section-item"><a href="#header" class="section-link">Home |</a></li>
+						<li class="section-item"><a href="#slider" class="section-link">Slider |</a></li>
+						<li class="section-item"><a href="#content" class="section-link">Content |</a></li>
+						<li class="section-item"><a href="#products" class="section-link">Products</a></li>
+					</ul>
+					<form action="/action_page.php" class="search-form">
+						<input type="text" class="form-control" placeholder="Search" name="search">
+						<button class="search-btn">
+							<span class="search-icon"><i class="fa fa-search"></i><span>
+						</button>
+					</form>
+				</div>
+			</div>
+		</section>
+	<!--Header Section End-->
+
+
+
+	<!--Slider Section-->
+		<section id="slider">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<h2 class="slider-title">Presentation</h2>
+						<p class="slider-text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but 
+						</p>
+						<div class="indicators">
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+						</div>
+					</div>
+					<div class="col-sm-8">
+
+						<div class="slideshow-container">
+							
+							<div class="mySlides fade-out">
+								<div class="number-text">1 / 5</div>
+								<img src="img/s1.jpg" alt="Ishtiaq Ahmed" class="slide-img">
+								<div class="caption-text">Caption One</div>
+							</div>
+
+							<div class="mySlides fade-out">
+								<div class="number-text">2 / 5</div>
+								<img src="img/s2.jpg" alt="Ishtiaq Ahmed" class="slide-img">
+								<div class="caption-text">Caption two</div>
+							</div>
+
+							<div class="mySlides fade-out">
+								<div class="number-text">3 / 5</div>
+								<img src="img/s3.jpg" alt="Ishtiaq Ahmed" class="slide-img">
+								<div class="caption-text">Caption Three</div>
+							</div>
+
+							<div class="mySlides fade-out">
+								<div class="number-text">4 / 5</div>
+								<img src="img/s4.jpg" alt="Ishtiaq Ahmed" class="slide-img">
+								<div class="caption-text">Caption Four</div>
+							</div>
+
+							<div class="mySlides fade-out">
+								<div class="number-text">5 / 5</div>
+								<img src="img/s5.jpg" alt="Ishtiaq Ahmed" class="slide-img">
+								<div class="caption-text">Caption Five</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Slider Section End-->
+
+	<!--Menu Section-->
+		<section class="container main-nav" id="navbar">
+			<nav class="navbar">
+				<ul class="nav">
+					<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link active">About</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Download</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+				</ul>
+			</nav>
+		</section>
+	<!--Menu Section End-->
+
+		
+	<!--Contennt Section-->
+		<section id="content" class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="box1">
+						<div class="box1-header">
+							Title #1
+						</div>
+						<div class="box1-content">
+							<h3 class="box1-title">
+								Section One
+							</h3>
+							<p class="box1-text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+							</p>
+							<button type="submit" class="box1-btn bt">
+								<span>next <i class="fa fa-caret-right"></i></span>
+							</button>
+						</div>
+					</div>
+				</div>
+	
+				<div class="col-sm-4">
+					<div class="box1 box2">
+						<div class="box2-header">
+							<h2>Simple Form</h2>
+							<hr>
+						</div>
+						<div class="box2-content">
+							<select name="signup" id="" class="box2-select">
+								<option value="" class="box2-option">One</option>
+								<option value="" class="box2-option">Two</option>
+								<option value="" class="box2-option">Three</option>
+							</select>
+							
+							<form action="/action.php" class="box2-form">
+								<input type="text" class="box2-name" placeholder="Name">
+								<input type="email" class="box2-mail" placeholder="e-mail">
+								<label for="checkbox" class="box2-label">
+									<input type="checkbox" checked="checked">
+									check the box
+								</label>
+							</form>
+
+							<button type="submit" class="box1-btn box2-btn bt">
+								<span>Send</span>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="box1 box2 box3">
+						<div class="box3-header ">
+							Title #1
+							<hr>
+						</div>
+						<div class="box3-content">
+							<h3 class="box3-title">
+								Section Two
+							</h3>
+							<p class="box3-text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+							</p>
+							<button type="submit" class="box1-btn box3-btn bt">
+								<span>next <i class="fa fa-caret-right"></i></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+<!--Contennt Section End-->
+
+
+
+
+<!--Product Section-->
+		<section id="products" class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="product-content">					
+						<img src="img/s1.jpg" alt="Ishtuaq Ahmed" width="200px" height="200px;">
+						<div class="product-info">
+							<h1 class="product-title">
+								Title One
+							</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
+							<button type="submit" class="product-btn bt">
+								<span>Send</span>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div class="product-content">					
+						<img src="img/s1.jpg" alt="Ishtuaq Ahmed" width="200px" height="200px;">
+						<div class="product-info">
+							<h1 class="product-title">
+								Title One
+							</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
+							<button type="submit" class="product-btn bt">
+								<span>Send</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!--Product Section End-->
+	</div>
+
+
+	<!--This extarnal script for slider-->
+	<script type="text/javascript" src="js/slider.js"></script>
+</body>
+</html>
